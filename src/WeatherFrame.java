@@ -90,7 +90,7 @@ public class WeatherFrame {
 		throws JSONException, IOException, MalformedURLException {
 	
         // declaring object of "OpenWeatherMap" class, providing API Key
-        OpenWeatherMap owm = new OpenWeatherMap("6c8fe4a08bda8e955118a5690b1f0895");
+        OpenWeatherMap owm = new OpenWeatherMap(api_key.api_key);
 		
 		// create window, size, title
 		shlWeather = new Shell();
